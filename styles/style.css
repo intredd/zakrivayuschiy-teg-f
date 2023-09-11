@@ -27,7 +27,7 @@
   background-size: cover;
   font-family: var(--main-font);
   color: var(--accent-color);
-  font-weight: var(--text-font-weight);
+  font-variation-settings: 'wght' var(--text-font-weight);
 }
 
 .button {
@@ -176,7 +176,7 @@
   font-size: 1.125rem;
 }
 
-.card__image-block{
+.card__image-block {
   display: grid;
   overflow: hidden;
   border-block: var(--border);
@@ -278,7 +278,7 @@
 
 .like-icon {
   display: block;
-  transition: all 0.1s linear;
+  transition: fill 0.1s linear;
 }
 
 .sparks {
@@ -295,7 +295,7 @@
   transition: fill 0.3s linear;
 }
 
-.like-icon:hover .core{
+.like-icon:hover .core {
   fill: var(--accent-color);
   transition: fill 0.3s linear;
 }
@@ -305,7 +305,7 @@
   transition: fill 0.3s 0.05s linear;
 }
 
-.like-icon:active .core{
+.like-icon:active .core {
   fill: var(--heart-fill-color);
   transition: fill 0.3s linear;
 }
@@ -315,7 +315,7 @@
   transition: fill 0.3s 0.05s linear;
 }
 
-.like-icon.is-liked .core{
+.like-icon.is-liked .core {
   fill: var(--heart-fill-color);
   transition: fill 0.3s linear;
 }
