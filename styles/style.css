@@ -225,10 +225,22 @@
   font-family: var(--accent-font);
   font-size: 0.875rem;
   font-weight: var(--title-font-weight);
-  -webkit-text-stroke: 1px var(--background-color);
+  text-shadow:
+    -1px 0 var(--background-color),
+    0 1px var(--background-color),
+    1px 0 var(--background-color),
+    0 -1px var(--background-color);
   opacity: 0.5;
   mix-blend-mode: hard-light;
   z-index: 1;
+}
+
+@supports ((text-stroke: 1px var(--background-color)) or (-webkit-text-stroke:  1px var(--backdround-color))) {
+  .watermark{
+    -webkit-text-stroke: 1px var(--background-color);
+    text-stroke: 1px var(--background-color);
+    text-shadow: none;
+  }
 }
 
 .card__text-block {
