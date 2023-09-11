@@ -30,6 +30,10 @@
   font-variation-settings: 'wght' var(--text-font-weight);
 }
 
+.page::-webkit-scrollbar {
+  display: none;
+}
+
 .button {
   padding: 0;
   background-color: transparent;
