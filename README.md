@@ -5,7 +5,7 @@
 
 ## Ссылка на макет в Figma
 
-- [Ссылка на макет в Figma]()
+- [Ссылка на макет в Figma](https://www.figma.com/design/JQhPLs2COLIeZtAtlsBS34/%238-%3C%2Fзакрывающий-тег%3E?node-id=0-1&t=dClogg8601fxHAyA-0)
 
 ## Структура проекта
 frontend - этот репозиторий ❤️
